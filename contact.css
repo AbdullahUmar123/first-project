@@ -1,0 +1,153 @@
+body{
+    background-image:url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top:25px;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+}
+
+
+#main-div{
+    float:left;
+    width:40%;
+    height:auto;
+    margin:auto;
+    border-radius:14px;
+    background:radial-gradient(rgba(255, 255, 255, 0.6));
+    box-shadow:0 0 30px rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(12px);
+}
+
+header{
+    padding:7px;
+    background-color: #ff7200;
+    border-top-right-radius: 14px;
+    border-top-left-radius: 14px;
+    width:97.4%;
+}
+
+.navbar{
+    width:70%
+}
+
+.navbar ul{
+    padding-left: 1px;
+    list-style: none;
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+
+}
+.navbar a{
+    font-size:14px;
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    margin-left:48px;
+    transition: 1s all;
+}
+.navbar a:hover{
+    color:black;
+}
+
+.contact{
+    padding:20px 150px;
+}
+
+.contact h1{
+    color:white;
+    font-size: 40px;
+}
+
+.contact input{
+    outline: none;
+    color:white;
+    font-size: bold;
+    width:200px; 
+    height:30px;
+    border:none;
+    background-color: transparent; 
+    border-bottom: 1px solid #ff7200;
+}
+.contact input:hover{
+    border-bottom: 1px solid white;
+}
+
+.contact textarea{
+    outline: none;
+    background-color: transparent;
+    border:none;
+    border-radius:9px;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+    color:white;
+    font-weight: bold;
+    padding-left:4px;
+    padding-top:4px;
+}
+
+.contact button{
+    padding:10px 30px;
+    background-color:#ff7200;
+    color:white;
+    border:none;
+    border-radius: 4px;
+    box-shadow: #f2c199;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact button:hover{
+    color:black;
+}
+
+svg{
+    color:white;
+    width:20px;
+    height:20px;
+    margin-bottom:-5px;
+}
+svg:hover{
+    color:#ff7200;
+}
+
+.contact-details{
+    border-top:1px solid #ff7200;
+}
+.contact-details h2{
+    text-align: center;
+    font-size: 35px;
+    color:#ff7200;
+}
+
+.first{
+    padding-right:10px;
+    float:left;
+}
+.first ul{
+    list-style: none;
+}
+
+.first li{
+    color:white;
+}
+
+.second{
+    margin-bottom:10px;
+    border-left:3px solid #ff7200;
+    margin-right:13px;
+    margin-top:90px;
+    float:left;
+}
+
+.second ul{
+    list-style: none;
+}
+
+.second li{
+    color:white;
+}
+

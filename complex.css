@@ -1,0 +1,115 @@
+body{
+    background-color:rgb(244, 234, 255);
+    font-family: sans-serif;
+}
+
+header{
+    text-align: center;
+}
+header h1{
+    font-size:52px;
+    color:rgb(88, 49, 196);
+    animation-duration: 1s;
+    animation-name: heading;    
+}
+@keyframes heading{
+    from{font-size:20px;}
+    to{font-size:52px}
+}
+header img{
+    margin-bottom: 35px;
+    width:300px;
+}
+main{
+    margin: 0px auto;
+    background-color: rgb(88, 49, 196);
+    width:710px;
+    padding: 20px;
+    color:rgb(248, 241, 255);
+    border-radius: 8px;
+    animation-duration: 1s;
+    animation-name:background-color;
+}
+@keyframes background-color{
+    from{background-color:rgb(196, 178, 247);}
+    to{background-color: rgb(88, 49, 196);}
+}
+li{
+    border-left: 5px solid rgb(247, 209, 85);
+    color:rgb(255, 237, 177);
+    list-style-type: none;
+    padding-left:14px;
+    margin:14px 0;
+    animation-duration:1s;
+    animation-name:list-items;
+}
+@keyframes list-items{
+    from{font-size:5px;}
+    to{font-size:16px;}
+}
+main a{
+    text-decoration: none;
+    border-radius: 3px;
+    padding:5px;
+    background-color: white;
+    color:black;
+}
+footer{
+    margin-top: 25px;
+    text-align: center;
+}
+footer a{
+    padding:10px;
+    color:black;
+    background-color: rgb(237, 186, 45);
+    margin-top:25px;
+    border-radius: 7px;
+    text-decoration: none;
+    transition:transform 1s, ease-out 1s;
+}
+footer a:hover{
+    background-color:rgb(183, 143, 32); 
+    color:white;
+    transform:scale(3);
+}
+footer p{
+    margin-top: 30px;
+    font-size: 15px;
+    color:rgb(131, 113, 149);
+}
+
+@media(max-width:768px) {
+            header h1{
+
+                text-align:center;
+                font-size:30px;
+            }
+            header img{
+                text-align: center;
+                width:200px;
+            }
+            main {
+                width:510px;
+            }
+            
+            main h2 {
+                margin-bottom:30px;
+                font-size:40px;
+                text-align: center;
+            }
+            main a{
+                padding:0.5px;
+            }
+            footer{
+                margin-top:50px;
+            }
+            footer a {
+                padding:30px;
+            }
+            footer p{
+                margin-top: 40px;
+            }
+
+    }
+    
+

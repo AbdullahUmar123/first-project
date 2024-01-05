@@ -1,0 +1,238 @@
+body{
+    background-image:url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin-top:25px;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+     
+}
+/* header section starts*/
+
+
+#main-div{
+    float:left;
+    width:74%;
+    height:auto;
+    margin:auto;
+    border-radius:14px;
+    background:radial-gradient(rgba(255, 255, 255, 0.6));
+    box-shadow:0 0 30px rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+}
+
+
+header nav{
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    width:60%;
+    box-sizing: border-box;
+    background-color: #ff7200;
+    border-bottom-right-radius: 14px;
+    border-top-left-radius: 14px;
+}
+
+.menu-btn{
+    margin-left:44px;
+    width:2rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.menu-btn span{
+    width: 100%;
+    height: 3px;
+    background-color: white;
+}
+
+.menu-btn:hover{
+    color:black;
+}
+
+.navbar{
+    width:70%
+}
+
+.navbar ul{
+    padding-left: 1px;
+    list-style: none;
+    display: flex;
+}
+.navbar li{
+    list-style: none;
+
+}
+.navbar a{
+    font-size:14px;
+    text-transform: uppercase;
+    color:white;
+    text-decoration: none;
+    margin-left:48px;
+    transition: 1s all;
+}
+.navbar a:hover{
+    color:black;
+}
+
+.search{
+    margin-top:7px;
+    padding-bottom:7px;
+    margin-left:205px;
+    height:50px;
+    width:30%;
+}
+.search form input{
+    outline:none;
+    width:183px;
+    border: none;
+    background-color: transparent;
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+.search form input:hover{
+    border-bottom:1px solid #ff7200;
+}
+
+.search a{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top:-25px;
+    color:white;
+    text-decoration: none;
+}
+
+svg{
+    display: flex;
+    flex-direction: row;
+    width:20px;
+}
+svg:hover{
+    color:#ff7200
+}
+
+/*header section ends*/
+/*main section starts*/
+
+.login{
+    float:left;
+    padding:20px 10px;
+    width:25%;
+    margin:45px 60px;
+    border:2px solid #ff7200;
+    border-radius: 14px;
+}
+.login:hover{
+    border:2px solid white;
+}
+.login h2{
+    text-align: center;
+    font-size: 30px;
+    color:#ff7200;
+}
+.login form label{
+    color:white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.login form input{
+    width:220px;
+    color:white;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+.login form input:hover{
+    border-bottom:1px solid #ff7200;
+}
+.login form a{
+    font-weight: bold;
+    color:red;
+    font-size: 12px;;
+}
+.login form a:hover{
+    color:green;
+}
+.log-btn{
+    border:none;
+    border-radius:4px;
+    padding:7px 22px;
+}
+.log-btn:hover{
+    background-color:#ff7200;
+    color:white;
+}
+
+.welcome{
+    float:left;
+    border:2px solid #ff7200;
+    border-radius: 14px;
+    margin:45px 20px;
+    padding:24px 10px;
+    width:40%;
+}
+.welcome:hover{
+    border:2px solid white;
+}
+
+.welcome h2{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:#ff7200;
+    text-align: center;
+}
+
+.welcome p{
+    font-weight: bold;
+    margin-bottom:30px;
+    color:white;
+    font-size:13px;
+}
+
+.welcome a{
+    display:inline-block;
+    justify-content: center;
+    font-size:13px;
+    color:black;
+    background-color:white;
+    padding:5px 12px;
+    text-decoration: none;
+    margin:5px 5px;
+    border-radius: 4px;
+}
+.welcome a:hover{
+    color:white;
+    background-color: #ff7200;
+}
+
+.links{
+    width:40px;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ff7200;
+    height:200px;
+    margin-top:300px;
+    padding-right:10px;
+    padding-left:0;
+    float:right;
+    border-top-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+.links ul{
+    list-style: none;
+}
+
+.links a{
+    display:grid;
+    margin:20px 0;
+}
+
+.links img{
+    width:30px;
+    height:30px;
+}

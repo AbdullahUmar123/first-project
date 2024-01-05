@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif;
+}
+.list{
+    padding:24px;
+    margin:100px auto;
+    list-style:unset;
+    background-color:rgb(219, 108, 94);
+    width:550px;
+    height:auto;
+    border:2px solid rgb(44, 44, 44);
+    text-align: center;
+    border-radius:8px;
+    box-shadow:1px 2px 8px rgba(179, 9, 9, 0.3);
+}
+.list img{
+    margin-top:-110px;
+    border:2px solid rgb(44, 44, 44);
+    width:150px;
+    height:150px;
+    border-radius:50%;
+}
+.list h1{
+    margin-top:35px;
+    font-size:35px;
+    color:rgb(31, 25, 25);
+}
+.list h3{
+    color:rgb(31, 25, 25);
+}
+.change-color{
+    color:rgb(66, 2, 2);
+}

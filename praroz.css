@@ -1,0 +1,206 @@
+body{
+    background-image:url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "arial", sans-serif;
+    animation-duration: 4s;
+    animation-name: body;
+}
+
+/*head section*/
+
+header{
+    background-color: black;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    box-sizing: border-box;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #ff7200;
+    font-size: 35px;
+    padding-left: 45px;
+    float: left;
+    padding-bottom:20px;
+}
+
+
+.navbar ul{
+    padding-left: 1px;
+    list-style: none;
+    display: flex;
+    float:left;
+}
+
+.navbar a{
+    font-size:16px;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left:80px;
+    transition: 1s all;
+}
+
+.navbar a:hover{
+    color:#ff7200;
+    transition: 1s all;
+}
+
+.search-bar{
+    padding:20px 20px;
+}
+.search-bar input{
+    outline:none;
+    background: transparent;
+    color:white;
+    font-size:16px;
+    font-weight: bold;
+    width:190px;
+    padding:15px;
+    border:2px solid #ff7200;
+    box-shadow:none;
+}
+
+.search-bar button{
+    font-size:16px;
+    color:rgb(255, 255, 255);
+    width:120px;
+    padding:17px;
+    margin-left:-4px;
+    background-color:#ff7200;
+    border: none;
+    border-bottom-right-radius:4px;
+    cursor: pointer;
+}
+
+.search-bar button:hover{
+    color:black;
+}
+
+/*main section*/
+/*hero-content starts*/
+
+.hero-content{
+    width:50%;
+    float:left;
+    height:auto;
+    margin-top:40px;
+    margin-left:80px;
+    color:white;
+    position:relative;
+}
+
+.hero-content h2{
+    font-family: "Times New Roman";
+    font-size: 45px;
+}
+
+.hero-content h2 span{
+    color: #ff7200;
+}
+
+.hero-content a{
+    background-color: #ff7200;
+    padding:8px 35px;
+    border-radius: 7px;
+    text-decoration: none;
+    color:black;
+}
+
+.hero-content a:hover{
+    color:white;
+}
+
+/*hero-content ends*/
+/*login page starts*/
+
+.login{
+    text-align: center;
+    border-radius: 8px;;
+    background-color: transparent;
+    box-shadow:0 0 30px rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    width:20%;
+    float:left;
+    margin-top:40px;
+    margin-left:200px;
+    padding:30px 8px 5px 8px;
+}
+
+.login-here{
+    font-weight: bold;
+    text-decoration: none;
+    color:#ff7200;
+    background-color: white;
+    padding:8px 80px;
+    border-radius: 7px;
+}
+.login-here:hover{
+    color:white;
+    background-color: #ff7200;
+}
+
+.login form input{
+    outline:none;
+    width:85%;
+    color:white;
+    background-color: transparent;
+    border:none;
+    border-bottom:2px solid #ff7200;
+}
+
+.login form input:hover{
+    border-bottom:2px solid white;
+}
+
+.login form button{
+    font-weight: bold;
+    background-color: #ff7200;
+    border-radius: 7px;
+    color: white;
+    border:none;
+    padding:8px 107px;
+    cursor:pointer;
+}
+.login form button:hover{
+    color:#ff7200;
+    background-color: white;
+}
+
+.account{
+    font-size:15px;
+    color:rgb(203, 196, 196);
+}
+
+.account span{
+    cursor: pointer;
+    color:#ff7200;
+}
+
+.account span:hover{
+    color:black;
+    text-decoration:underline;
+}
+
+.login-with{
+    color:rgb(203, 196, 196);
+    font-size: 10px;
+    font-family: "Times New Roman";
+}
+
+.icons{
+    width:100%;
+    float:left;
+    height:auto;
+}
+
+.icons img{
+    margin:10px;
+    width:20px;
+    height:25px;
+}
