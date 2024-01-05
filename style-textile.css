@@ -738,6 +738,8 @@ button{
 
     .social{
         display:none;
+        color: red;
+
     }
     
     .fa-bars{
